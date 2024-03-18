@@ -15,6 +15,7 @@ import { LoginPageComponent } from './components/login-page/login-page.component
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+
   ],
   providers: [
     provideClientHydration()
