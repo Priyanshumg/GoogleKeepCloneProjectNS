@@ -1,0 +1,53 @@
+<title>Sign in - Google Account</title>
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> -->
+<div class="Layout-container">
+<div class="Layout">
+    <div class="Layout1">
+        <div class="GoogleImageLogoDiv">
+            <img src="../../../assets/Logos/GoogleLogoG.jpg" class="GoogleImageLogo">
+        </div>
+        <div class="SigninTextDiv">
+            <p class="SignInText">
+                Sign in
+            </p>
+        </div>
+        <div class="UseGoogleAcountDiv">
+            <p class="UseGoogleAcount">
+                Use Your Google Acount
+            </p>
+        </div>
+    </div>
+    <div class="Layout2">
+      <form #Form="ngForm" (ngSubmit)="onSubmit(Form)">
+        <div class="EmailInputDiv">
+          <label for="Email" class="EmailLabel">Email</label>
+          <input type="email" name="email" placeholder="Email Or Phone" class="EmailInput" ngModel>
+        </div>
+        <div class="EmailInputDiv">
+          <label for="Password" class="PasswordLabel">Password</label>
+          <input type="password" name="password" placeholder="Password" class="EmailInput" ngModel>
+        </div>
+        <div class="ForgotEmailDiv">
+            <button type="button" class="ForgetEmailButton" (click)="forgotEmail()">
+              <a href="">
+                Forgot email?
+              </a>
+            </button>
+        </div>
+        <div class="CreateNextButtons">
+          <div>
+            <button type="button" class="CreateAccount" (click)="createAccount()">
+              Create account
+            </button>
+          </div>
+          <div class="NextButtonDiv">
+            <button type="submit" class="NextButton" ngSubmit>
+              Next
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+</div>

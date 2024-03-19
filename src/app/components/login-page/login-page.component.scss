@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*
+{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p,a
+{
+    color: black;
+}
+
+.Layout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #e4ecef;
+}
+
+.Layout {
+    background-color: white;
+    width: 1050px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 50px;
+    border-radius: 50px;
+}
+.Layout1
+{
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 30px;
+    /* background-color: aqua; */
+}
+
+.GoogleImageLogo
+{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.SignInText,.UseGoogleAcount
+{
+  margin-top: 40px;
+    margin-left: 15px;
+}
+
+.SignInText
+{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.Layout2
+{
+    /* background-color: brown; */
+    margin-right: 30px;
+}
+
+.EmailInputDiv
+{
+  margin-top: 20px;
+}
+
+.EmailLabel,.PasswordLabel
+{
+  margin-left: 20px;
+}
+
+.EmailInput
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 400px;
+    height: 40px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: inset  rgba(0,0,0,0.15);
+    border-color: black;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-left: 15px;
+}
+
+.EmailInput::placeholder
+{
+    color: black;
+}
+
+.ForgotEmailDiv
+{
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.ForgetEmailButton
+{
+  background-color: white;
+  border-width: 0px;
+}
+
+.NotYourComputer
+{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.LearnMore
+{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.LearnMore,.ForgetEmail
+{
+    color:  rgb(0, 90, 186);
+    font-weight: bold;
+}
+
+.CreateNextButtons
+{
+    margin-top: 70px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 150px 100px;
+}
+
+.CreateAccount
+{
+    margin-top: 13px;
+    margin-right: 50px;
+    width: 150px;
+    background-color:white;
+    color: white;
+    border-color: black;
+    border-width: 0px;
+    color: rgb(0, 90, 186);
+}
+
+.CreateAccount:hover
+{
+    cursor: pointer;
+}
+
+.NextButton
+{
+    width: 80px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 15px;
+    background-color: rgb(0, 90, 186);
+    border-radius: 20px;
+    border-width: 1px;
+    cursor: pointer;
+    color: white;
+}
